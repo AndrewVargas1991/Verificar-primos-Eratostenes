@@ -1,0 +1,17 @@
+Instruções de uso do programa Verificar primos
+
+1- Abra o programa "Verificar primos.exe" que está dentro da pasta "release".
+
+2- Digite até que número deseja analisar se são primos ou não e aperte ENTER.
+
+OBS: Quanto maior o número, maior a demora para calcular o resultado, então para testar, comece digitando números pequenos (menor que 10 mil).
+
+Caso você queira compilar o código, baixe e instale o compilador GCC:
+https://sourceforge.net/projects/mingw/files/latest/download
+
+Abra o CMD (ou Power Shell) no diretório do projeto e digite:
+
+gcc "Verificar primos.c" -o "Verificar primos.exe" -lm
+
+Ou, após instalar o GCC, apenas execute o arquivo "Compilador.bat".
+
